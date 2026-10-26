@@ -3,6 +3,7 @@ plugins {
 }
 
 dependencies {
-    implementation(kotlin("stdlib-jdk8"))
-    testImplementation(kotlin("test"))
+    // Версии подтягиваются из корневого gradle/libs.versions.toml
+    implementation(libs.kotlin.stdlib)
+    testImplementation(libs.kotlin.test)
 }
