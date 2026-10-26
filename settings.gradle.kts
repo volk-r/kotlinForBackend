@@ -45,7 +45,7 @@ plugins {
 include(":m1l1-first")
 // Учебный модуль, демонстрирующий подключение convention-плагина из
 // композитной сборки gradle-plugins.
-include(":m1l2-convention")
+include(":m2l1-convention")
 
 // Композитные сборки-проекты.
 includeBuild("gradle-plugins")
